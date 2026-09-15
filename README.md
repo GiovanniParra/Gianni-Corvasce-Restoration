@@ -1,5 +1,3 @@
-[README.md](https://github.com/user-attachments/files/32131990/README.md)
-[index.html](https://github.com/user-attachments/files/32131993/index.html)<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
