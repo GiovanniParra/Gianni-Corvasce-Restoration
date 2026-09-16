@@ -96,5 +96,25 @@ publishing it as his actual site:
   handling (works the same for mouse, touch, and keyboard), verified with a
   real simulated touch-drag, not just a mouse test.
 
+- **Typography scaled up across the whole page (2026-09-16).** Base body
+  text, headings, nav, buttons, captions, review copy, and footer text were
+  all bumped to a larger size (body text 16px → 18px, hero headline up to
+  ~4.5rem at wide widths, section headings, stat numbers, and review quotes
+  all increased proportionally) for better readability and more visual
+  weight, per request. Layout, spacing, and responsiveness were re-checked
+  after the change — everything still fits and wraps cleanly.
+
+- **Down to one before/after example (2026-09-16).** The two placeholder
+  sliders (Extension Dining Table, Burl Coffee Table — each pairing a real
+  "after" photo with a generic icon "before" panel) were removed per
+  request, leaving only the one genuine, fully-photographed example: the
+  double dresser.
+- **Slider replaced with a plain static before/after (2026-09-16, same
+  day).** The drag-to-compare interaction was dropped entirely per request
+  in favor of a simple side-by-side layout — a "Before" panel, an arrow
+  graphic, and an "After" panel, no JavaScript interaction required. This
+  removes any dependency on pointer/touch event support in whatever browser
+  or embedding surface displays the page.
+
 Full sourcing notes and build decisions are also saved in the Parra Marketing
 Solutions project (`claude/gianni-corvasce-build-notes.md`).
